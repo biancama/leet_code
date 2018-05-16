@@ -3,4 +3,4 @@ project(leet_code)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leet_code main.cpp 001_two_sum/Solution.cpp 001_two_sum/Tests.cpp)
+add_executable(leet_code main.cpp 001_two_sum/Solution.cpp 001_two_sum/Tests.cpp 002_add_two_numbers/Solution.cpp 002_add_two_numbers/Tests.cpp)
