@@ -3,4 +3,4 @@ project(leet_code)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(leet_code main.cpp 001_two_sum/Solution.cpp 001_two_sum/Tests.cpp 002_add_two_numbers/Solution.cpp 002_add_two_numbers/Tests.cpp 003_longest_substring_without_repeating_characters/Solution.cpp 003_longest_substring_without_repeating_characters/Tests.cpp)
+add_executable(leet_code main.cpp 001_two_sum/Solution.cpp 001_two_sum/Tests.cpp 002_add_two_numbers/Solution.cpp 002_add_two_numbers/Tests.cpp 003_longest_substring_without_repeating_characters/Solution.cpp 003_longest_substring_without_repeating_characters/Tests.cpp 004_median_of_2_sorted_arrays/Solution.cpp 004_median_of_2_sorted_arrays/Tests.cpp binary_search/001_find_target_num/Tests.cpp binary_search/001_find_target_num/Solution.cpp)
