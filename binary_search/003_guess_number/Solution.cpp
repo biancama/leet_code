@@ -10,24 +10,19 @@ int guess(int num);
 class Solution {
 public:
     int guessNumber(int n) {
-        unsigned int low = 1;
-        int mid = n;
+        unsigned int low = 0;
+        unsigned int mid = 0;
 
-        int guess_result = guess(mid);
-
-        while(guess_result != 0)
-        {
-            if(guess_result == -1)
-            {
-                n = mid;
-            }
-            else if(guess_result == 1)
-            {
+        while(1) {
+            mid = (n + low)/2;
+            int guess_result = guess(mid);
+            if(guess_result == -1) {
                 low = mid;
-            }
-
-            mid = (low+n)/2;
-            guess_result = guess(mid);
+            }  else if(guess_result == 1) {
+                n = mid;
+            } else {
+                break;
+            };
         }
         return mid;
     }

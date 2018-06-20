@@ -40,3 +40,10 @@ TEST_CASE("find target in a rotated sorted array 05") {
     vector<int> input = {1};
     REQUIRE(solution.search_rotated(input, 1) == 0);
 }
+
+TEST_CASE("find target in a rotated sorted array 06") {
+
+    Solution solution;
+    vector<int> input = {4, 5, 6, 7, 8, 1, 2, 3};
+    REQUIRE(solution.search_rotated(input, 8) == 4);
+}
